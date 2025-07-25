@@ -1,2 +1,0 @@
-https://raw.githubusercontent.com/CubeBeveled/pihole-allowlist/refs/heads/main/adblock/google.txt
-https://raw.githubusercontent.com/CubeBeveled/pihole-allowlist/refs/heads/main/adblock/microsoft.txt
