@@ -55,6 +55,6 @@ if __name__ == "__main__":
             extra += "\n"
 
         with open(
-            f"../adblock/{title.lower().replace("/", "_")}.txt", "w", encoding="utf-8"
+            f"adblock/{title.lower().replace("/", "_")}.txt", "w", encoding="utf-8"
         ) as f:
             f.write(block + extra)
