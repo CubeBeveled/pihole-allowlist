@@ -2,7 +2,7 @@ name: Extract Domains from Discourse
 
 on:
   schedule:
-    - cron: '0 0 */3 * *'
+    - cron: "0 0 */3 * *"
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.13"
 
       - name: Install dependencies
         run: pip install -r scripts/extract/requirements.txt
