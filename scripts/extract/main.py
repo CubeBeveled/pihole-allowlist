@@ -50,7 +50,7 @@ if __name__ == "__main__":
         block = block.replace("pihole allow ", "").replace(" ", "\n")
         extra = ""
 
-        if title.includes("(") and title.includes(")"):
+        if ("(") in title and (")") in title:
             title, extra = extract_parentheses(title)
             extra += "\n"
 
