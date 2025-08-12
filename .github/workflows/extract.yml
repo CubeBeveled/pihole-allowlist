@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/extract/requirements.txt
 
+      - name: Clean up old lists
+        run: rm -rf adblock/*
+
       - name: Fetch and extract code blocks
         run: python scripts/extract/main.py
 
