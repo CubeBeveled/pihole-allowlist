@@ -1,5 +1,8 @@
 name: Extract Domains from Discourse
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 */3 * *"
