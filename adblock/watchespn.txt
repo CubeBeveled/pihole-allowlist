@@ -1,3 +1,0 @@
-fpdownload.adobe.com
-entitlement.auth.adobe.com
-livepassdl.conviva.com

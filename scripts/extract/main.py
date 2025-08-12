@@ -46,8 +46,16 @@ if __name__ == "__main__":
 
     code = extract_code_blocks(post["cooked"])
 
+    all = ""
     for title, block in code:
-        block = block.replace("pihole allow ", "").replace(" ", "\n")
+        block = (
+            block.replace("pihole ", "")
+            .replace("allow ", "")
+            .replace('--allow-regex "', "")
+            .replace("--allow-regex ", "")
+            .replace('"', "")
+            .replace(" ", "\n")
+        )
         extra = ""
 
         if ("(") in title and (")") in title:
@@ -57,4 +65,10 @@ if __name__ == "__main__":
         with open(
             f"adblock/{title.lower().replace("/", "_")}.txt", "wt", encoding="utf-8"
         ) as f:
+            all += f"\n# {title}\n"
+            all += block + "\n"
+
             f.write(block + extra)
+
+        with open(f"adblock/all.txt", "wt", encoding="utf-8") as f:
+            f.write(all)

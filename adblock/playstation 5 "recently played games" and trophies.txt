@@ -1,1 +1,0 @@
-telemetry-console.api.playstation.com
