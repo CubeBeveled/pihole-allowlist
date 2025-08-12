@@ -1,0 +1,7 @@
+twitter.com
+upload.twitter.com
+api.twitter.com
+mobile.twitter.com
+pihole
+--white-regex
+"(\.|^)twimg\.com$"
