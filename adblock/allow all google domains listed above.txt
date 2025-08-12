@@ -1,0 +1,16 @@
+clients4.google.com
+clients2.google.com
+s.youtube.com
+video-stats.l.google.com
+www.googleapis.com
+
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com
+android.clients.google.com
+reminders-pa.googleapis.com
+fires
+tore.googleapis.com
+gstaticadssl.l.google.com
+googleapis.l.google.com
+dl.google.com
+redirector.gvt1.comregex still needs to be imported in a seperate command, due to it needing a different flag

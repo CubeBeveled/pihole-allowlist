@@ -1,0 +1,4 @@
+www.googleapis.com
+
+youtubei.googleapis.com
+oauthaccountmanager.googleapis.com

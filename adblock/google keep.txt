@@ -1,0 +1,2 @@
+reminders-pa.googleapis.com
+firestore.googleapis.com
