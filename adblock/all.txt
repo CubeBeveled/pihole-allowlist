@@ -35,7 +35,7 @@ dl.google.com
 redirector.gvt1.com
 
 # Push Notification
-mtalk.googel.com
+mtalk.google.com
 
 # Push Notification
 ^((alt)[0-9](-))?mtalk\.google\.com$
