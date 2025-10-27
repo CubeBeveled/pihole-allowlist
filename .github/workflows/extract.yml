@@ -10,7 +10,7 @@ on:
 
 jobs:
   extract-code:
-    runs-on: self-hosted
+    runs-on: acer1
 
     steps:
       - name: Checkout repository
