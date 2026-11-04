@@ -380,6 +380,10 @@ telemetry-console.api.playstation.com
 # Cannon Printers
 gdlp01.c-wss.com
 
+# MyFitnessPal Mobile App
+sdk.split.io
+auth.split.io
+
 # Reddit
 styles.redditmedia.com
 www.redditstatic.com
